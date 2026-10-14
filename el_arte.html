@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El arte</title>
+</head>
+<body>
+    <header>
+        <h1 style="background-color:rgb(235, 186, 177);">El arte</h1>
+        <p>Un espacio para conocer la importancia del arte y sus diferentes formas de expresión.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#sobre el arte">Sobre el arte</a></li>
+            <li><a href="#formas de arte">Formas de arte</a></li>
+            <li><a href="#curiosidades">Curiosidades</a></li>
+            <li><a href="#opinión">Opinión</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre el arte">
+            <h2>Sobre el arte</h2>
+            <p>El arte es una forma de expresión que permite a los artistas comunicar ideas, sentimientos y experiencias. Puede aparecer de diferentes maneras, como en la pintura, la música, la danza, la escultura y el dibujo.</p>
+            <p>Desde hace muchos años, las personas han utilizado el arte para representar lo que sienten y también para mostrar aspectos de su cultura.</p>
+            <p>Para mí, el arte es importante porque permite desarrollar la <strong>creatividad</strong> y expresar emociones de una manera diferente. Además, por eso el arte puede tener muchos significado.</p>
+        </section>
+
+        <section id="formas de arte">
+            <h2>Formas de arte</h2>
+            <p>Existen múltiples formas de arte, cada una con sus propias características y técnicas.</p>
+            <h3>Algunas formas de expresión artística incluyen:</h3>
+            <ul>
+                <li>Pintura</li>
+                <li>Escultura</li>
+                <li>Música</li>
+                <li>Danza</li>
+                <li>Teatro</li>
+                <li>Literatura</li>
+                <li>Fotografía</li>
+            </ul>
+            <h3>Pasos para crear una obra artística:</h3>
+            <ol>
+                <li>Definir la idea o concepto que se quiere expresar.</li>
+                <li>Seleccionar los materiales y herramientas adecuados.</li>
+                <li>Planificar la composición y el diseño.</li>
+                <li>Ejecutar la creación, experimentando con diferentes técnicas.</li>
+                <li>Revisar y ajustar la obra según sea necesario.</li>
+            </ol>
+        </section>
+
+        <section id="curiosidades">
+            <h2>Curiosidades</h2>
+            <p>El arte tiene un impacto significativo en nuestra vida cotidiana y puede influir en nuestro bienestar emocional y mental.</p>
+            <p>Una de las cosas más interesantes del arte es que no existe una sola forma de crear. Cada artista puede utilizar diferentes materiales y técnicas para expresar su imaginación. Algunas obras pueden ser <em>simples y delicadas</em> mientras que otras pueden ser más llamativas.</p>
+            <h3>Algunas obras y artístas:</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Obra</th>
+                        <th>Artista</th>
+                        <th>Tipo de arte</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>La noche estrellada</td>
+                        <td>Vincent van Gogh</td>
+                        <td>Pintura</td>
+                    </tr>
+                    <tr>
+                        <td>La mona lisa</td>
+                        <td>Leonardo da Vinci</td>
+                        <td>Pintura</td>
+                    </tr>
+                    <tr>
+                        <td>El pensador</td>
+                        <td>Auguste Rodin</td>
+                        <td>Escultura</td>
+                    </tr>
+                </tbody>
+             </table>
+             <h3 style="background-color:rgb(70, 103, 223);">Imagen relacionada con el arte mencionado</h3>
+             <img src="Imagenes/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg.webp" width="300" height="200"/> 
+             <p style="color:rgb(16, 51, 132);" alt="La noche estrellada de Vincent van Gogh"> <em>La noche estrellada de Vincent van Gogh</em></p>
+             <h3 style="background-color:rgb(70, 103, 223);">Video sobre el arte:</h3>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/WE46iDPTGVs?si=xsLpbU-JyHXA9XqD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <p>Si quieres conocer más detalles sobre el arte, artistas y lugares, puedes visitar <a href="https://www.museobolivariano.org.co/" target="_blank">el sitio web</a> del Museo Bolivariano de Arte Contemporaneo.</p>
+                <p>Si gustas compartir esta información, no dudes en hacerlo. <a href="http://127.0.0.1:5500/el_arte.html" target="_blank">Compartir</a></p>
+        </section>
+
+        <section id="opinión">
+            <h2>Opinión</h2>
+            <p>El arte es una parte fundamental de nuestra cultura y nos permite explorar diferentes perspectivas y experiencias humanas.</p>
+            <p>Me gustaría conocer tu opinión sobre el arte. Puedes responder las siguientes preguntas mediante formulario.</p>
+            <form action="procesar_opinion.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="edad">Edad:</label>
+                <input type="number" id="edad" name="edad" required><br><br>
+
+                <label for="forma-arte">¿Cuál es tu forma de arte favorita y qué opinas de ella?</label><br>
+                <textarea id="forma-arte" name="forma_arte" rows="4" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Enviar opinión">
+            </form>
+        </section>
+    </main>
+<footer>
+    <p>Elaborado por: Sindy Cantillo.</p>
+    <p>Fecha: 26 de septiembre de 2026</p>
+</footer>
+</body>
+</html>
